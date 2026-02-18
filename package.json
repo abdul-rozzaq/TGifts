@@ -1,0 +1,25 @@
+{
+  "name": "tgifts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "nodemon": "^3.1.11",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "prebuilt-tdlib": "^0.1008061.0",
+    "tdl": "^8.0.2",
+    "telegram": "^2.26.22"
+  }
+}
